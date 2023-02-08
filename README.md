@@ -1,12 +1,23 @@
-#Clase1
-##Comandos basicos terminal
+    #Clase1
 
-#1: ls
-#2: clear
-#3: rm: eliminar archivo normal
-#4: rmdir: eliminar directorio
-#5: mkdir: crear carpeta *siempre crear carpetas sin espacios-
--"entrecomillas" crea carpeta con nombre con espacio
-#6:
 
+    ##Comandos basicos terminal
+
+- ls: listado de archivos de una carpeta
+
+- clear : limpiar la consola
+- mkdir[carpetas] : crear carpetas
+- rmdir[carpetas] : remover carpetas
+- md : markdown
+- rm [archivos]: eliminar archivo normal
+- touch : crear archivos
+- ls -all: muestra todos los archivos ocultos
+- rm -rf.git/
+
+        ##comandos de git 
+
+- git init
+- git add
+- git commit -m
+- 
 
