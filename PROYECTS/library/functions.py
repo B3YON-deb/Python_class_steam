@@ -1,6 +1,6 @@
 import os
 import re
-
+#________________________________________________________________________________ validacion de errores
 def error(
     text:str
     )-> bool :
@@ -14,7 +14,19 @@ def error(
     """
     validation = "^[A-Za-z0-9 ]+$"
     return bool(re.search(validation,text)) 
+#________________________________________________________________________________
+def userin (
+    main: str,
+    dicto: dict
+)-> str:
+    if main in dicto:
+        return False
+        
+    else:
+        return True
+    
 
+#________________________________________________________________________________
 
 
 def ingresar(

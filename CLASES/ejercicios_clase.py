@@ -87,3 +87,77 @@
 #                 if lista[j] == i:
 #                     del(lista[j])
 #         print("La lista es ahora:", lista)
+#_____________________________________________________________________________________________
+
+
+
+# class coche:
+#     def __init__(self,matricula,marca,kilometros,gasolina):
+#         self.matricula = matricula
+#         self.marca = marca
+#         self.kilometros = kilometros
+#         self.gasolina = gasolina
+        
+#     def avanzar (self,km):
+#         self.gasolina = self.gasolina - km
+#         self.kilometros = self.kilometros + km
+#         if self.gasolina <= 10:
+#             print("sin gasolina")
+#         else:
+#             print("puedes ir")
+
+# km = int(input("ingresa los kilometros que vas a recorrer "))
+# main = coche("MHZ","koeninsegg",km,50)
+
+# main.avanzar(km)
+
+# print(main.gasolina)
+
+#_____________________________________________________________________________________________
+
+# class robot:
+#     x = 0
+#     y = 0
+#     def __init__(self,nombre) -> None:
+#         self.nombre = nombre
+#     def arriba(self,up):
+#         self.x = self.x + up 
+#     def abajo(self,down):
+#         self.x = self.x - down
+#     def derecha(self,ri):
+#         self.y = self.x - ri
+#     def izquierda(self,le):
+#         self.y = self.y + le
+#     def posicion (self):
+#         return (f"la posicion es x >{self.x} y >{self.y}")
+        
+        
+# main = robot("andres")
+# main.arriba(4)
+# main.abajo(0)
+# main.derecha(0)
+# main.izquierda(0)
+# result = main.posicion()
+# print(result)
+        
+
+#_____________________________________________________________________________________________
+
+class alummno ():
+    nota = 10
+    def __init__(self, nombre):
+        self.nombre = nombre
+        
+    def notas(self):
+        self.nota = int(input("ingrese su nota > "))
+        if self.nota >= 10:
+            print(f"{self.nombre} aprobaste")
+            
+        else:
+            print(f"{self.nombre} reprobaste")
+        
+
+
+main = alummno("marcos")
+main.notas()
+        
